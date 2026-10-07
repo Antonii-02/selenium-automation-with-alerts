@@ -1,4 +1,5 @@
 # selenium-automation-with-alerts
+```
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -85,3 +86,4 @@ country.select_by_value("IN")
 country.select_by_index(2)
 for option in country.options:
     print(option.text)
+```
